@@ -1,15 +1,16 @@
-body{
-    background-color: green;
+.conteiner {
+    background-color: lightgrey;
+    border: 2px dashed yellow;
 }
 
-p{
+p {
     font-size: 2rem;
     font-weight: bold;
     color: green;
     border: 2px solid darkgoldenrod;
 }
 
-ul li{
+ul li {
     background-color: blue;
     text-transform: uppercase;
     list-style: none;
