@@ -1,8 +1,14 @@
-.conteiner {
+.conteiner1 {
     background-color: lightgrey;
     border: 2px dashed yellow;
     width: 50%;
     height: 50%;
+}
+
+.conteiner2 {
+    background-color: lightgreen;
+    border: 6px dashed red;
+    height: 80%;
 }
 
 p {
@@ -16,4 +22,10 @@ ul li {
     background-color: blue;
     text-transform: uppercase;
     list-style: none;
+}
+
+@media screen and (max-width:575px){
+    .conteiner1, .conteiner2{
+        display: none;
+    }
 }
