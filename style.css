@@ -1,6 +1,8 @@
 .conteiner {
     background-color: lightgrey;
     border: 2px dashed yellow;
+    width: 50%;
+    height: 50%;
 }
 
 p {
